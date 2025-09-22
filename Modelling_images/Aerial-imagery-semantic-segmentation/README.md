@@ -8,7 +8,7 @@ Some implementation ideas and code were adapted from [DigitalSreeni](https://www
 ## Notes:
 - Model performance can be improved by enhancing convergence between training and validation losses:
 
-   2. Apply batch norm to improve the convergence;
+   2. Apply batch norm to improve the stability of the model;
    3. Adding a learning rate scheduler to further improve convergence.
    3. Conducting a more in-depth grid search for hyperparameters.
 
