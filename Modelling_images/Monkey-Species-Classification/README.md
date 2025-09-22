@@ -1,10 +1,10 @@
-# Monkey Species Classification – Feature Extraction with Random Forest
+# Project: Monkey Species Classification – Feature Extraction with Random Forest
 
 ## Description:
 This project performs monkey species classification by extracting features from images using a VGG16 backbone and classifying them with a Random Forest classifier.
 
 ## Dataset:
-The dataset is available [here](https://www.kaggle.com/datasets/slothkong/10-monkey-species/data)
+The dataset is available [here](https://www.kaggle.com/datasets/slothkong/10-monkey-species/data
 
 ## Notes:
 
