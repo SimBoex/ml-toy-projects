@@ -1,22 +1,16 @@
-# RemoteSensing
+# Project: Aerial imagery semantic segmentation
 
-![alt text](https://github.com/SimBoex/RemoteSensing/blob/a6bb136d9fda2caca6fd9da88827fd3a430e9562/Folder_Name.jpg)
+## Description:
+This project tackles a semantic segmentation task in remote sensing images. I used Weights & Biases (wandb) for the first time to track experiments and fine-tune hyperparameters efficiently, applying techniques learned during university to minimize GPU usage.
 
+Some implementation ideas and code were adapted from [DigitalSreeni](https://www.youtube.com/@DigitalSreeni)
 
+## Notes:
+- Model performance can be improved by enhancing convergence between training and validation losses:
 
-1. Semantic segmentation task:
-   I used wandb for the first time and applied a procedure learnt during the university to fine tune the hyperparameters without using a ton of GPU.
-   Some code and ideas is taken from [here](https://www.youtube.com/@DigitalSreeni)
+   2. Apply batch norm to improve the convergence;
+   3. Adding a learning rate scheduler to further improve convergence.
+   3. Conducting a more in-depth grid search for hyperparameters.
 
-
-  ![img1](https://github.com/SimBoex/RemoteSensing/blob/6e393f39eda12bb88a09781afa3442b7f800336c/Wandb_images/W%26B%20Chart%2025_06_2024%2C%2015_45_00.png)
-
-  ![img1](https://github.com/SimBoex/RemoteSensing/blob/6e393f39eda12bb88a09781afa3442b7f800336c/Wandb_images/W%26B%20Chart%2025_06_2024%2C%2015_44_46.png)
-
-
-     - Observation: it is possible to improve the performances improving the convergence of the models (Train-Val losses):
-        1. Performing a more in depth Grid-search;
-        2. Expand the Grid-search using a CV to check if the data quality is an issue;
-        3. add a LR-scheduler to improve the convergence;
 
 
