@@ -1,4 +1,4 @@
-# U-Net Teeth Segmentation
+# Project: U-Net Teeth Segmentation
 
 ## Description:
 This project focuses on teeth segmentation in dental X-ray images using a U-Net architecture. The model addresses class imbalance with binary focal loss to improve segmentation performance.
